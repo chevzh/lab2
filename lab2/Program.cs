@@ -203,7 +203,7 @@ namespace lab2
 
             //4
 
-            //ValueTuple<int, string, char, string, ulong> tuple = new ValueTuple<int, string, char, string, ulong>(2, "323");
+            //ValueTuple<int, string, char, string, ulong> tuple1 = new ValueTuple<int, string, char, string, ulong>(2, "323", 'c', "string2", 38475683745);
             var tuple = (element1:5, element2:"string1", element3:'c',element4:"string2",element5:9487363345);
 
             Console.WriteLine(tuple);
